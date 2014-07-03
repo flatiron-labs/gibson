@@ -1,0 +1,2 @@
+# gibson
+### a Sails application
