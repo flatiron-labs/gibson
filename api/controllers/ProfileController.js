@@ -14,7 +14,6 @@
  *
  * @docs        :: http://sailsjs.org/#!documentation/controllers
  */
-
 module.exports = {
     
   
@@ -26,5 +25,4 @@ module.exports = {
    */
   _config: {}
 
-  
 };

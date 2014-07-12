@@ -21,11 +21,7 @@ module.exports.adapters = {
   mongo: {
     module: 'sails-mongo',
     schema: false,
-    host: 'localhost',
-    port: 27017,
-    //user: 'username',
-    //password: 'password',
-    database: 'gibson'
+    url: process.env.MONGOHQ_URL || 'mongodb://localhost:27017/gibson'
   },
 
   // Persistent adapter for DEVELOPMENT ONLY
