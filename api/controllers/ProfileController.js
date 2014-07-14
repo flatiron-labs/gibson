@@ -15,14 +15,22 @@
  * @docs        :: http://sailsjs.org/#!documentation/controllers
  */
 module.exports = {
-    
-  
-
-
   /**
    * Overrides for the settings in `config/controllers.js`
    * (specific to ProfileController)
    */
-  _config: {}
+  _config: {},
 
+  email: function(req, res, next) {
+    var email = req.param('email');
+    Profile.findOne({email: email}).done(function(err, profile) {
+      if (err) {
+        res.json(err);
+      } else {
+        res.json(profile);
+      }
+    });
+  }
 };
+
+
