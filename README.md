@@ -69,3 +69,4 @@ Gibson has support for storing and retrieving profile data.
 * `GET gibsonURL/profile/email/:email_address` to find a profile by
   email address
 * `POST gibsonURL/profile` to create a new profile
+* `POST gibsonURL/profile/update/:id` to update profile
