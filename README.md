@@ -13,14 +13,16 @@ intelligence tools.
 ## Setup
 
 1. Install node.js (`brew install node` is the preferred method)
-2. Install [Sails.js](http://sailsjs.org) with NPM
+2. Install [Sails.js](http://sailsjs.org) with NPM `sudo npm -g install
+   sails`
 3. Install MongoDB (`brew install mongodb` is the preferred method)
-4. Clone the repository
-5. Make sure MongoDB is running on the default port, or alternatively,
+4. Install Sails MongoDB Adapter `npm install sails-mongo@0.9.x`
+5. Clone the repository
+6. Make sure MongoDB is running on the default port, or alternatively,
    set a URL to access a Mongo instance in a `MONGOHQ_URL` environment
 variable.
-6. type `sails lift` at the root of the repo, the server should start
-7. navigate to http://localhost:1337 to see the site run.
+7. type `sails lift` at the root of the repo, the server should start
+8. navigate to http://localhost:1337 to see the site run.
 
 ## API
 
