@@ -16,7 +16,7 @@ intelligence tools.
 2. Install [Sails.js](http://sailsjs.org) with NPM `sudo npm -g install
    sails`
 3. Install MongoDB (`brew install mongodb` is the preferred method)
-4. Install Sails MongoDB Adapter `npm install sails-mongo@0.9.x`
+4. Install Sails MongoDB Adapter `npm install sails-mongo@0.10.x`
 5. Clone the repository
 6. Make sure MongoDB is running on the default port, or alternatively,
    set a URL to access a Mongo instance in a `MONGOHQ_URL` environment
