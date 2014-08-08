@@ -40,13 +40,13 @@ module.exports.routes = {
     controller: 'ProfileController',
     action: 'email'
   }
+
   /*
   // But what if you want your home page to display
   // a signup form located at `views/user/signup.ejs`?
   '/': {
     view: 'user/signup'
   }
-
 
   // Let's say you're building an email client, like Gmail
   // You might want your home route to serve an interface using custom logic.
